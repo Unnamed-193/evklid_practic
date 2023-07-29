@@ -78,4 +78,35 @@
   }
 }
 
-@media {}
+@media (max-width:1024px){
+  .container {
+    max-width: 1024px;
+    padding:  0 50px;
+  }
+  .header__logo {
+      order: 1;
+      margin-left: auto;
+  }
+  .nav {
+      order: 0;
+  }
+  .header__btn {
+      order: 2;
+      margin: 0;
+  }
+  .nav__list {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+  .nav__burger {
+      display: flex;
+  }
+  .header {
+    position: relative;
+  }
+  .nav__item {
+    display: inline-block;
+    max-width: max-content;
+  }
+}
