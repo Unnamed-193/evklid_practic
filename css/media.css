@@ -1,0 +1,81 @@
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --orange-color: #ff9900;
+  --grey-color: #cacaca;
+  --dark-color: #222;
+  --dark-grey-color: #414141;
+  --dark-orange-color: #E1670E;
+  --light-orange-color: #FFB84D;
+  --medium-grey-color: #666;
+}
+
+@media (max-width: 1600px) {
+  .about-content__item {
+    padding: 35px 35px 35px 300px;
+    background-position: 36px 35px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 75px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .header__logo {
+    width: 150px;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 60px;
+  }
+
+  .hero__container {
+    padding: 100px 80px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    padding: 116px 0;
+  }
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-content__left {
+    margin-bottom: 32px;
+    padding-top: 444px;
+    margin-right: 0;
+  }
+
+  .about-content__right {
+    margin-left: 0;
+  }
+
+  .work-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .footer__text {
+    display: none;
+  }
+}
+
+@media {}
