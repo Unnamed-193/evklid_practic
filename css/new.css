@@ -288,15 +288,10 @@ img {
 /* Hero */
 
 .hero {
-  padding: 50px 75px;
-}
-
-.hero__container {
-  max-width: 1770px;
-  border-radius: 32px;
+  padding: 50px 0px;
   position: relative;
   display: flex;
-  padding: 100px 80px;
+  overflow: hidden;
 }
 
 .hero__swiper {
@@ -316,6 +311,8 @@ img {
 
 .hero-content {
   z-index: 1;
+  position: relative;
+  padding: 100px 0;
 }
 
 .hero-content__title {

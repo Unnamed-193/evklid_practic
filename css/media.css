@@ -345,7 +345,7 @@
     max-width: 247px;
     left: 46%;
     transform: translateX(-50%);
-
+    padding: 60px 10px 59px 0;
   }
 
   .hero-content__title {
@@ -356,19 +356,136 @@
 
   .hero-content__text {
     margin-bottom: 32px;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 15px;
   }
 
   .hero-content__btn {
-
+    padding: 13px 28px;
+    font-size: 12px;
+    line-height: 15px;
+    border-radius: 8px;
   }
 
   .hero__img {
     border-radius: 16px;
     height: 202px;
   }
+
+  .about {
+    padding-bottom: 60px;
+  }
+
+  .about__descr {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 14px;
+  }
+    .about-left {
+      flex-direction: column;
+      padding: 0;
+      border-radius: 16px;
+      overflow: visible;
+    }
+
+    .about-content__img {
+      position: relative;
+      margin-bottom: 8px;
+    }
+
+    .about-content__inner {
+      flex-direction: column;
+      padding: 0;
+      background-color: transparent;
+    }
+
+    .about-content__text {
+      margin-bottom: 12px;
+      width: 100%;
+      font-size: 14px;
+      font-weight: 400;
+      color: var(--black-color);
+    }
+
+    .about-content__btn {
+      padding: 9px 42px;
+      align-self: flex-start;
+      border-radius: 8px;
+      font-size: 12px;
+      line-height: 15px;
+      color: var(--orange-color);
+      border-width: 2px;
+    }
+
+    .about-content__btn:focus-visible,
+    .about-content__btn:hover {
+      color: var(--white-color);
+    }
+
+    .about-content__item {
+      padding: 62px 0 0;
+      border: none;
+      background-size: 63px;
+      background-position: 0 0;
+    }
+
+    .about-content__item:first-child {
+      margin-bottom: 32px;
+    }
+
+    .about-content__title {
+      margin-bottom: 4px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .about-content__descr {
+      font-size: 14px;
+      line-height: 28px;
+    }
+
+    .work {
+      padding-bottom: 60px;
+    }
+
+    .work__title {
+      margin-bottom: 20px;
+    }
+
+    .work__list {
+      margin-bottom: 16px;
+      gap: 44px;
+    }
+
+    .work__btn {
+      font-size: 14px;
+      line-height: 17px;
+    }
+
+    .work-right__image {
+      width: 100%;
+      border-radius: 16px;
+      min-height: 160px;
+    }
+
+    .work-left__title {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 32px;
+      margin-bottom: 8px;
+    }
+
+
 }
+
+
+
+
+
+
+
+
 
 
 
